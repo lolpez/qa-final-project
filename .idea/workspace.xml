@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PrimeNumberServiceImplTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrimeNumberServiceImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="295">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#458#459#0" expanded="true" />
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeNumberServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PrimeNumberServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -75,8 +75,8 @@
         <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/PrimeNumberServiceImpl.java" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java" />
-        <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java" />
         <option value="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -551,16 +551,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523501614606</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Refactorized method isPrimeNumber() for test:&#10;testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse&#10;Test passed">
+      <created>1523501868612</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1523501868612</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added a new test:&#10;testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse&#10;Test passed">
+      <created>1523502034638</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1523502034638</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse - 2018.04.11 at 22h 39m 13s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberServiceImplTest - 2018.04.11 at 22h 40m 40s.xml">
-      <configuration name="PrimeNumberServiceImplTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse - 2018.04.11 at 22h 42m 49s.xml">
       <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse" configurationId="JUnit" />
     </history-entry>
@@ -584,6 +592,12 @@
     </history-entry>
     <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse - 2018.04.11 at 22h 57m 11s.xml">
       <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse - 2018.04.11 at 22h 58m 22s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse - 2018.04.11 at 22h 59m 56s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -641,7 +655,9 @@
     <MESSAGE value="Added a new test:&#10;testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse&#10;Test Failed" />
     <MESSAGE value="Refactorized method isPrimeNumber() for test:&#10;testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse&#10;Test passed" />
     <MESSAGE value="Added a new test:&#10;testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse&#10;Test Failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new test:&#10;testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse&#10;Test Failed" />
+    <MESSAGE value="Refactorized method isPrimeNumber() for test:&#10;testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse&#10;Test passed" />
+    <MESSAGE value="Added a new test:&#10;testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse&#10;Test passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new test:&#10;testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse&#10;Test passed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,17 +763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="295">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
@@ -765,6 +774,13 @@
             <element signature="e#479#480#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
