@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d3b50441-7e14-42bc-b665-1dc1379e5a5f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +22,8 @@
       <file leaf-file-name="PrimeNumberServiceImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#458#459#0" expanded="true" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="PrimeNumberServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="238">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -45,8 +47,8 @@
       <file leaf-file-name="PrimeNumberService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -83,9 +85,9 @@
         <option value="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberImplTest.java" />
         <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/PrimeNumberServiceImpl.java" />
         <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" />
         <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java" />
         <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java" />
-        <option value="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -581,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523502213211</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added a new test:&#10;testGetNPrimeNumberIfNIsNegativeReturnEmptyArray&#10;Test Failed">
+      <created>1523502545318</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1523502545318</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -620,32 +629,32 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3291536" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5008091" side_tool="true" weight="0.3291536" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32928804" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2936893" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="3" visible="true" weight="0.3291536" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5008091" side_tool="true" weight="0.3291536" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32928804" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49919093" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2936893" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -674,7 +683,8 @@
     <MESSAGE value="Refactorized method isPrimeNumber() for test:&#10;testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse&#10;Test passed" />
     <MESSAGE value="Added a new test:&#10;testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse&#10;Test passed" />
     <MESSAGE value="Refactorized method isPrimeNumber()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactorized method isPrimeNumber()" />
+    <MESSAGE value="Added a new test:&#10;testGetNPrimeNumberIfNIsNegativeReturnEmptyArray&#10;Test Failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new test:&#10;testGetNPrimeNumberIfNIsNegativeReturnEmptyArray&#10;Test Failed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -773,24 +783,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java">
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />

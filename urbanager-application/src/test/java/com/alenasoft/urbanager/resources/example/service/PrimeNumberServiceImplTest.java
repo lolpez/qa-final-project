@@ -70,7 +70,7 @@ public class PrimeNumberServiceImplTest {
     @Test
     public void testGetNPrimeNumberIfNIsNegativeReturnEmptyArray() {
         String expectedValue = "[]";
-        String result = this.primeService.getNPrimeNumber(-9);
+        String result = this.primeService.getNPrimeNumbers(-9);
         assertEquals(expectedValue, result);
     }
 

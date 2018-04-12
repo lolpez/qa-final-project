@@ -10,4 +10,13 @@ public class PrimeNumberServiceImpl implements PrimeNumberService {
         }
         return true;
     }
+
+    @Override
+    public String getNPrimeNumbers(int n){
+        if (n<0){
+            return "[]";
+        }else{
+            return null;
+        }
+    }
 }
