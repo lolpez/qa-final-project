@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3b50441-7e14-42bc-b665-1dc1379e5a5f" name="Default" comment="Created test for PrimeNumberResourceTest&#10;Test Passed">
+    <list default="true" id="d3b50441-7e14-42bc-b665-1dc1379e5a5f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/primenumber/PrimeNumberResourceTest.java" afterPath="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/primenumber/PrimeNumberResourceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/urbanager-api/target/" />
@@ -58,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeNumberResourceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrimeNumberResourceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/primenumber/PrimeNumberResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
@@ -66,6 +66,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,16 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/operations/service/OperationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -182,6 +182,7 @@
         <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java" />
         <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java" />
         <option value="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/primenumber/PrimeNumberResourceTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -275,107 +276,6 @@
             <path>
               <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="primenumber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="primenumber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-final-project" type="462c0819:PsiDirectoryNode" />
-              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="primenumber" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -906,7 +806,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523542480382</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Created test for PrimeNumberResourceTest&#10;Test Passed">
+      <created>1523543037822</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1523543037822</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -952,13 +859,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5008091" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.49919093" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.49919093" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29690832" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29690832" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1009,7 +916,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="Added a base test class for Prime Number Service&#10;Project compiling with errors" />
     <MESSAGE value="Added Prime Number Service Implementation class with its interface&#10;Added instances from Prime Number Implementation to Prime Number Service Implementation Test &#10;Project compiling without errors" />
     <MESSAGE value="Added first test&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test failed" />
     <MESSAGE value="Added first implementation for test:&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test passed" />
@@ -1034,7 +940,8 @@
     <MESSAGE value="Added javadoc for methods isPrimeNumber and getNPrimeNumbers&#10;Refactored getNPrimeNumbers&#10;Test Passed" />
     <MESSAGE value="Created PrimeNumberResource class&#10;Test Passed" />
     <MESSAGE value="Created test package primenumber&#10;Moved PrimeNmberServiceImplTest to new package&#10;Created PrimeNumberResourceTest&#10;Test Passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created test package primenumber&#10;Moved PrimeNmberServiceImplTest to new package&#10;Created PrimeNumberResourceTest&#10;Test Passed" />
+    <MESSAGE value="Created test for PrimeNumberResourceTest&#10;Test Passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created test for PrimeNumberResourceTest&#10;Test Passed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1270,6 +1177,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
