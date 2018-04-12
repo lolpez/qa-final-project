@@ -4,7 +4,7 @@ public class PrimeNumberServiceImpl implements PrimeNumberService{
 
     @Override
     public Boolean isPrimeNumber(int value) {
-        if (value <= 1){
+        if (value <= 2){
             return false;
         }else {
             return true;
