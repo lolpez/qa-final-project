@@ -81,4 +81,11 @@ public class PrimeNumberServiceImplTest {
         assertEquals(expectedValue, result);
     }
 
+    @Test
+    public void testGetNPrimeNumberIfNEqualsOneReturnArrayWithTwoAsTheOnlyElement() {
+        String expectedValue = "[2]";
+        String result = this.primeService.getNPrimeNumbers(1);
+        assertEquals(expectedValue, result);
+    }
+
 }
