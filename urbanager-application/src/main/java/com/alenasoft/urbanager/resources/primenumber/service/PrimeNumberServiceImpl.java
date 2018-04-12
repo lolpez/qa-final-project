@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 public class PrimeNumberServiceImpl implements PrimeNumberService {
 
+    /**
+     * this method validataes if the input value is a prime number or not
+     * returns true when is a prime number
+     * returns false when is not a prime number
+     * @param value
+     * @return
+     */
     @Override
     public Boolean isPrimeNumber(int value) {
         if (value <= 1) return false;
@@ -13,32 +20,35 @@ public class PrimeNumberServiceImpl implements PrimeNumberService {
         return true;
     }
 
+    /**
+     * this method returns an array converted to String with the first n prime numbers
+     * @param value is an int value, its purpose is to declare the length of the array
+     *          if value is below than 1 then it returns an empty array
+     * @return
+     */
     @Override
-    public String getNPrimeNumbers(int n) {
-        if (n <= 0) {
+    public String getNPrimeNumbers(int value) {
+        if (value < 1) {
             return "[]";
-        }
-        if (n == 1) {
-            return "[2]";
-        } else {
-            int[] primes = new int[n];
-            int ncounter = 0;
-            int isPrime = 2;
-            while (ncounter < n) {
-                boolean prime = true;
-                for (int j = 2; j < isPrime; j++) {
-                    if (isPrime%j ==0){
-                        prime = false;
+        }else{
+            int[] primesNumber = new int[value];
+            int nCounter = 0;
+            int nextPrimeNumber = 2;
+            while (nCounter < value) {
+                boolean isPrime = true;
+                for (int j = 2; j < nextPrimeNumber; j++) {
+                    if (!isPrimeNumber(nextPrimeNumber)) {
+                        isPrime = false;
                         break;
                     }
                 }
-                if (prime) {
-                    primes[ncounter] = isPrime;
-                    ncounter++;
+                if (isPrime) {
+                    primesNumber[nCounter] = nextPrimeNumber;
+                    nCounter++;
                 }
-                isPrime++;
+                nextPrimeNumber++;
             }
-            return Arrays.toString(primes);
+            return Arrays.toString(primesNumber);
         }
     }
 }
