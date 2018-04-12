@@ -1,5 +1,7 @@
 package com.alenasoft.urbanager.resources.primenumber.service;
 
+import java.util.Arrays;
+
 public class PrimeNumberServiceImpl implements PrimeNumberService {
 
     @Override
@@ -12,15 +14,31 @@ public class PrimeNumberServiceImpl implements PrimeNumberService {
     }
 
     @Override
-    public String getNPrimeNumbers(int n){
-        if (n<=0){
+    public String getNPrimeNumbers(int n) {
+        if (n <= 0) {
             return "[]";
         }
-        if (n ==1){
+        if (n == 1) {
             return "[2]";
-        } else{
-            return null;
+        } else {
+            int[] primes = new int[n];
+            int ncounter = 0;
+            int isPrime = 2;
+            while (ncounter < n) {
+                boolean prime = true;
+                for (int j = 2; j < isPrime; j++) {
+                    if (isPrime%j ==0){
+                        prime = false;
+                        break;
+                    }
+                }
+                if (prime) {
+                    primes[ncounter] = isPrime;
+                    ncounter++;
+                }
+                isPrime++;
+            }
+            return Arrays.toString(primes);
         }
-
     }
 }

@@ -90,7 +90,7 @@ public class PrimeNumberServiceImplTest {
 
     @Test
     public void testGetNPrimeNumberIfNIsGreaterThanZeroShouldReturnArrayWithSameLenghtAsN(){
-        String expectedValue = "[2,3,5,7,9]";
+        String expectedValue = "[2, 3, 5, 7, 11]";
         String result= this.primeService.getNPrimeNumbers(5);
         assertEquals(expectedValue,result);
     }
