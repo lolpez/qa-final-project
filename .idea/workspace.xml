@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3b50441-7e14-42bc-b665-1dc1379e5a5f" name="Default" comment="Added first implementation for test:&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test passed">
+    <list default="true" id="d3b50441-7e14-42bc-b665-1dc1379e5a5f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/urbanager-api/target/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="PrimeNumberServiceImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-215">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="312">
+              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#458#459#0" expanded="true" />
@@ -246,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse">
+  <component name="RunManager" selected="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse">
     <configuration name="UrbanagerApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.UrbanagerApp" />
       <module name="urbanager-application" />
@@ -347,8 +348,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" />
         <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse" />
+        <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523499393109</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added first implementation for test:&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test passed">
+      <created>1523500119720</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1523500119720</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -617,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="312">
+          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
