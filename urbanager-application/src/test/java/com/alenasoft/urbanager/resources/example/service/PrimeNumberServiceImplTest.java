@@ -20,4 +20,11 @@ public class PrimeNumberServiceImplTest {
     public void tearDown() {
         this.primeService = null;
     }
+
+    @Test
+    public void testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse() {
+        Boolean expectedValue = false;
+        Boolean result = this.primeService.isPrimeNumber(-9);
+        assertEquals(expectedValue, result);
+    }
 }
