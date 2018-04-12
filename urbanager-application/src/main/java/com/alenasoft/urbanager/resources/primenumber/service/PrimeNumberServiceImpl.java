@@ -7,6 +7,11 @@ public class PrimeNumberServiceImpl implements PrimeNumberService{
         if (value <= 2){
             return false;
         }else {
+            for (int i = 2; i < value; i++){
+                if(value % i == 0){
+                    return  false;
+                }
+            }
             return true;
         }
     }

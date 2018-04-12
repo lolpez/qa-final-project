@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3b50441-7e14-42bc-b665-1dc1379e5a5f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/urbanager-api/target/" />
@@ -20,7 +20,7 @@
       <file leaf-file-name="PrimeNumberServiceImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="238">
               <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="PrimeNumberServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="238">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -247,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemainderIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse">
+  <component name="RunManager" selected="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse">
     <configuration name="UrbanagerApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.UrbanagerApp" />
       <module name="urbanager-application" />
@@ -271,29 +271,6 @@
       <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.resources.example.service.PrimeNumberServiceImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="urbanager-application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alenasoft.urbanager.resources.example.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.alenasoft.urbanager.resources.example.service" />
-      <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.resources.example.service.PrimeNumberServiceImplTest" />
-      <option name="METHOD_NAME" value="testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -372,6 +349,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="urbanager-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alenasoft.urbanager.resources.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alenasoft.urbanager.resources.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.resources.example.service.PrimeNumberServiceImplTest" />
+      <option name="METHOD_NAME" value="testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -412,19 +412,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UrbanagerApp" />
-      <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse" />
       <item itemvalue="JUnit.PrimeNumberServiceImplTest" />
       <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse" />
       <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse" />
       <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemainderIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" />
+      <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" />
+        <item itemvalue="JUnit.PrimeNumberServiceImplTest" />
         <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemainderIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" />
         <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse" />
         <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse" />
-        <item itemvalue="JUnit.PrimeNumberServiceImplTest" />
-        <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -544,25 +544,17 @@
       <option name="project" value="LOCAL" />
       <updated>1523501086027</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added a new test:&#10;testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse&#10;Test Failed">
+      <created>1523501614606</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1523501614606</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse - 2018.04.11 at 22h 16m 01s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse - 2018.04.11 at 22h 17m 08s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse - 2018.04.11 at 22h 23m 27s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse - 2018.04.11 at 22h 32m 25s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse - 2018.04.11 at 22h 34m 46s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse - 2018.04.11 at 22h 39m 13s.xml">
       <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse" configurationId="JUnit" />
     </history-entry>
@@ -577,6 +569,21 @@
     </history-entry>
     <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse - 2018.04.11 at 22h 45m 38s.xml">
       <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberRemainderIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse - 2018.04.11 at 22h 52m 22s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemainderIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse - 2018.04.11 at 22h 56m 32s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest - 2018.04.11 at 22h 56m 41s.xml">
+      <configuration name="PrimeNumberServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest - 2018.04.11 at 22h 56m 56s.xml">
+      <configuration name="PrimeNumberServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse - 2018.04.11 at 22h 57m 11s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -633,7 +640,8 @@
     <MESSAGE value="Refactorized method isPrimeNumber() for test:&#10;testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse&#10;Test passed" />
     <MESSAGE value="Added a new test:&#10;testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse&#10;Test Failed" />
     <MESSAGE value="Refactorized method isPrimeNumber() for test:&#10;testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse&#10;Test passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactorized method isPrimeNumber() for test:&#10;testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse&#10;Test passed" />
+    <MESSAGE value="Added a new test:&#10;testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse&#10;Test Failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new test:&#10;testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse&#10;Test Failed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,14 +749,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="238">
           <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
