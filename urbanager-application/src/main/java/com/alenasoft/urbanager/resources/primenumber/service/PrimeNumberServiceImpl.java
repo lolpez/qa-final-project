@@ -1,5 +1,7 @@
 package com.alenasoft.urbanager.resources.primenumber.service;
 
+import com.alenasoft.urbanager.resources.primenumber.service.PrimeNumberService;
+
 import java.util.Arrays;
 
 public class PrimeNumberServiceImpl implements PrimeNumberService {

@@ -5,6 +5,8 @@ import com.alenasoft.urbanager.resources.example.service.ExampleService;
 import com.alenasoft.urbanager.resources.example.service.ExampleServiceImpl;
 import com.alenasoft.urbanager.resources.operations.service.OperationService;
 import com.alenasoft.urbanager.resources.operations.service.OperationServiceImpl;
+import com.alenasoft.urbanager.resources.primenumber.service.PrimeNumberService;
+import com.alenasoft.urbanager.resources.primenumber.service.PrimeNumberServiceImpl;
 import ru.vyarus.dropwizard.guice.module.support.DropwizardAwareModule;
 
 /**
@@ -18,5 +20,6 @@ public class MainModule extends DropwizardAwareModule<UrbanagerConf> {
   protected void configure() {
     bind(ExampleService.class).to(ExampleServiceImpl.class);
     bind(OperationService.class).to(OperationServiceImpl.class);
+    bind(PrimeNumberService.class).to(PrimeNumberServiceImpl.class);
   }
 }
