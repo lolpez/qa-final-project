@@ -13,7 +13,7 @@ public class PrimeNumberServiceImpl implements PrimeNumberService {
 
     @Override
     public String getNPrimeNumbers(int n){
-        if (n<0){
+        if (n<=0){
             return "[]";
         }else{
             return null;
