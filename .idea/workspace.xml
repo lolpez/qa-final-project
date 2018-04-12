@@ -247,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse">
+  <component name="RunManager" selected="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse">
     <configuration name="UrbanagerApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.UrbanagerApp" />
       <module name="urbanager-application" />
@@ -420,10 +420,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse" />
         <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemaindersIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" />
         <item itemvalue="JUnit.PrimeNumberServiceImplTest" />
         <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberRemainderIsZeroWhenDividedByAnyNumberExceptOneAndItselfReturnFalse" />
-        <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse" />
         <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsTwoReturnFalse" />
       </list>
     </recent_temporary>

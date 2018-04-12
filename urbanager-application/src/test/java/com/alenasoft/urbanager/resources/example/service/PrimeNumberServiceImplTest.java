@@ -55,4 +55,12 @@ public class PrimeNumberServiceImplTest {
         Boolean result = this.primeService.isPrimeNumber(9);
         assertEquals(expectedValue, result);
     }
+
+    @Test
+    public void testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse() {
+        Boolean expectedValue = false;
+        Boolean result = this.primeService.isPrimeNumber(Integer.MAX_VALUE + 1);
+        assertEquals(expectedValue, result);
+    }
+
 }
