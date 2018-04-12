@@ -88,4 +88,11 @@ public class PrimeNumberServiceImplTest {
         assertEquals(expectedValue, result);
     }
 
+    @Test
+    public void testGetNPrimeNumberIfNIsGreaterThanZeroShouldReturnArrayWithSameLenghtAsN(){
+        String expectedValue = "[2,3,5,7,9]";
+        String result= this.primeService.getNPrimeNumbers(5);
+        assertEquals(expectedValue,result);
+    }
+
 }
