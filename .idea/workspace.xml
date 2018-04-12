@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3b50441-7e14-42bc-b665-1dc1379e5a5f" name="Default" comment="Implemented isPrimeNumber() method&#10;First test passed">
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+    <list default="true" id="d3b50441-7e14-42bc-b665-1dc1379e5a5f" name="Default" comment="Added first implementation for test:&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test passed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/urbanager-api/target/" />
@@ -16,16 +16,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="PrimeNumberServiceImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-215">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
+      <file leaf-file-name="PrimeNumberServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -39,6 +50,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ExampleService</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -56,8 +72,10 @@
         <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/PrimeNumberService.java" />
         <option value="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberImplTest.java" />
         <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/PrimeNumberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" />
         <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java" />
+        <option value="$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -105,6 +123,107 @@
               <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urbanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-prime-numbers-project" type="462c0819:PsiDirectoryNode" />
+              <item name="urbanager-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse">
     <configuration name="UrbanagerApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.UrbanagerApp" />
       <module name="urbanager-application" />
@@ -136,6 +255,52 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="urbanager-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alenasoft.urbanager.resources.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alenasoft.urbanager.resources.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.resources.example.service.PrimeNumberServiceImplTest" />
+      <option name="METHOD_NAME" value="testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="urbanager-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alenasoft.urbanager.resources.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alenasoft.urbanager.resources.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.alenasoft.urbanager.resources.example.service.PrimeNumberServiceImplTest" />
+      <option name="METHOD_NAME" value="testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -175,6 +340,17 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.UrbanagerApp" />
+      <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" />
+      <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" />
+        <item itemvalue="JUnit.PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -215,22 +391,38 @@
       <option name="project" value="LOCAL" />
       <updated>1523495350314</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added a base test class for Prime Number Service&#10;Project compiling with errors">
+      <created>1523497668416</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523497668417</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Prime Number Service Implementation class with its interface&#10;Added instances from Prime Number Implementation to Prime Number Service Implementation Test &#10;Project compiling without errors">
+      <created>1523498905384</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523498905384</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added first test&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test failed">
+      <created>1523499244096</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523499244096</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added first implementation for test:&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test passed">
+      <created>1523499393109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1523499393109</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsPrimeReturnTrue - 2018.04.11 at 21h 01m 43s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsPrimeReturnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsPrimeReturnTrue - 2018.04.11 at 21h 06m 51s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsPrimeReturnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsPrimeReturnTrue - 2018.04.11 at 21h 07m 05s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsPrimeReturnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsPrimeReturnTrue - 2018.04.11 at 21h 07m 19s.xml">
-      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsPrimeReturnTrue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsNotPrimeReturnFalse - 2018.04.11 at 21h 10m 18s.xml">
       <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNotPrimeReturnFalse" configurationId="JUnit" />
     </history-entry>
@@ -246,6 +438,21 @@
     <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsNotPrimeReturnFalse - 2018.04.11 at 21h 34m 11s.xml">
       <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNotPrimeReturnFalse" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse - 2018.04.11 at 22h 10m 10s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse - 2018.04.11 at 22h 15m 47s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse - 2018.04.11 at 22h 16m 01s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse - 2018.04.11 at 22h 17m 08s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberEqualsZeroReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberServiceImplTest_testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse - 2018.04.11 at 22h 23m 27s.xml">
+      <configuration name="PrimeNumberServiceImplTest.testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
@@ -257,14 +464,14 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5008091" side_tool="true" weight="0.3291536" />
       <window_info anchor="right" id="Maven Projects" weight="0.32928804" />
       <window_info anchor="bottom" id="Version Control" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24271844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2936893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -290,27 +497,23 @@
     <MESSAGE value="Added 2 new classes: PrimeNumberService and PrimeNumberServiceImpl&#10;Refactored test class name from PrimeNumberImplTest to PrimeNumberServiceImplTest&#10;Project compiling without errors" />
     <MESSAGE value="Added a new test: Test method isPrimeNumber() if given number is prime&#10;Test failed" />
     <MESSAGE value="Implemented isPrimeNumber() method&#10;First test passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented isPrimeNumber() method&#10;First test passed" />
+    <MESSAGE value="First commit, added base project" />
+    <MESSAGE value="Added a base test class for Prime Number Service&#10;Project compiling with errors" />
+    <MESSAGE value="Added Prime Number Service Implementation class with its interface&#10;Added instances from Prime Number Implementation to Prime Number Service Implementation Test &#10;Project compiling without errors" />
+    <MESSAGE value="Added first test&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test failed" />
+    <MESSAGE value="Added first implementation for test:&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added first implementation for test:&#10;testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse&#10;Test passed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/ExampleResourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-682">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/ExampleServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -335,27 +538,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/example/ExampleResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+        <state relative-caret-position="-51">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/example/service/ExampleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanager-api/src/main/java/com/alenasoft/urbanager/api/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/example/service/ExampleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/example/dao/ExampleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/ExampleServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/main/java/com/alenasoft/urbanager/resources/primenumber/service/PrimeNumberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanager-application/src/test/java/com/alenasoft/urbanager/resources/example/service/PrimeNumberServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
