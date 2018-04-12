@@ -15,8 +15,12 @@ public class PrimeNumberServiceImpl implements PrimeNumberService {
     public String getNPrimeNumbers(int n){
         if (n<=0){
             return "[]";
-        }else{
+        }
+        if (n ==1){
+            return "[2]";
+        } else{
             return null;
         }
+
     }
 }
