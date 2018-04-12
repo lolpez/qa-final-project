@@ -34,4 +34,11 @@ public class PrimeNumberServiceImplTest {
         Boolean result = this.primeService.isPrimeNumber(0);
         assertEquals(expectedValue, result);
     }
+
+    @Test
+    public void testIsPrimeNumberIfGivenNumberEqualsOneReturnFalse() {
+        Boolean expectedValue = false;
+        Boolean result = this.primeService.isPrimeNumber(1);
+        assertEquals(expectedValue, result);
+    }
 }
