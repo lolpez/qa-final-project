@@ -1,7 +1,5 @@
-package com.alenasoft.urbanager.resources.example.service;
+package com.alenasoft.urbanager.resources.primenumber.service;
 
-import com.alenasoft.urbanager.resources.primenumber.service.PrimeNumberService;
-import com.alenasoft.urbanager.resources.primenumber.service.PrimeNumberServiceImpl;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
