@@ -74,4 +74,11 @@ public class PrimeNumberServiceImplTest {
         assertEquals(expectedValue, result);
     }
 
+    @Test
+    public void testGetNPrimeNumberIfNIsZeroReturnEmptyArray() {
+        String expectedValue = "[]";
+        String result = this.primeService.getNPrimeNumbers(0);
+        assertEquals(expectedValue, result);
+    }
+
 }
