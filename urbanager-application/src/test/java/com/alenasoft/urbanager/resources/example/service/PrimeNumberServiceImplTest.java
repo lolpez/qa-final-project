@@ -21,6 +21,8 @@ public class PrimeNumberServiceImplTest {
         this.primeService = null;
     }
 
+    //Ex. 1
+
     @Test
     public void testIsPrimeNumberIfGivenNumberIsNegativeReturnFalse() {
         Boolean expectedValue = false;
@@ -60,6 +62,15 @@ public class PrimeNumberServiceImplTest {
     public void testIsPrimeNumberIfGivenNumberIsGreaterThanIntegerMaxValueReturnFalse() {
         Boolean expectedValue = false;
         Boolean result = this.primeService.isPrimeNumber(Integer.MAX_VALUE + 1);
+        assertEquals(expectedValue, result);
+    }
+
+    //Ex. 2
+
+    @Test
+    public void testGetNPrimeNumberIfNIsNegativeReturnEmptyArray() {
+        String expectedValue = "[]";
+        String result = this.primeService.getNPrimeNumber(-9);
         assertEquals(expectedValue, result);
     }
 
